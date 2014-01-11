@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="utf-8">
+  <title>simpleCalendar</title>
+    <link rel="stylesheet" href="style.css">		
+    <link rel="stylesheet" href="https://rawgithub.com/w3tl/simpleCalendar/master/simpleCalendar.css">	
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://rawgithub.com/w3tl/simpleCalendar/master/simpleCalendar.js"></script>
+ </head>
+ <body>
+    <header>simpleCalendar - simple jQuery &amp; CSS calendar
+        <a href="https://github.com/w3tl/simpleGallery">
+            <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px" src="img/forkme.png" alt="Fork me on GitHub">
+        </a>
+     </header>
+     <img style="margin: 10px; float: left" alt="UI how-to" src="img/howto.png">
+     <section class="calendar">
+         <div id="calendar" class="calendar-main"></div>
+     </section>
+     <h2 class="download"><a href="https://github.com/w3tl/simpleCalendar/archive/v0.9.1.zip">Download plugin</a></h2>
+	<script>
+		$(document).ready(function(){
+			$('#calendar').calendar();
+		});
+	</script>
+	</body>
+</html>

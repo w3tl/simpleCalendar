@@ -1,0 +1,27 @@
+body {
+    margin:0;   
+}
+header {
+    text-align:center;
+    font-size:2em;
+    background-color:#cfeeff;
+    color:#06a9ff;
+    padding:20px;
+}
+.calendar {
+    margin:10px;
+    margin-top:55px;
+    float:left;
+}
+.download {
+    clear:both;
+    text-align:center;
+    background-color:#cfeeff;
+}
+.download a, .download a:visited {
+    text-decoration:none; 
+    color:#06a9ff;
+}
+.download a:hover {
+    color:#0083c7;   
+}
